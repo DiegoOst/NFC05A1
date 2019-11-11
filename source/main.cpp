@@ -70,8 +70,6 @@
 #endif
 
 
-
-
 SPI_HandleTypeDef hspi1;
 SPI_InitTypeDef Init;
 ST25R3911 mST25;
