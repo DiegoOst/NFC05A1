@@ -2,12 +2,11 @@
 
 
 
-
-
-//extern sCCFileInfo CCFileStruct;
-
-// This is a constructor
-
+/**
+ * @brief Constructor of the NFC05A1 class
+ * @param spiChannel: SPI Channel
+ * @param led_1: Digital Led
+ */
 X_Nucleo_NFC05::X_Nucleo_NFC05(SPI *spiChannel, DigitalOut *led_1)
 {
 
@@ -17,9 +16,8 @@ X_Nucleo_NFC05::X_Nucleo_NFC05(SPI *spiChannel, DigitalOut *led_1)
 
 /**
   * @brief  This function initialize the device
-  * @param  mi2cChannel : I2C Channel
-  * @param  mLPD : A digital PIN
-  * @retval status(int) : Return if the write operation is succesful
+  * @param  spiChannel : SPI Channel
+  * @retval void
   */
 
 void X_Nucleo_NFC05::begin(SPI *mspiChannel) {
