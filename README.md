@@ -16,4 +16,8 @@ Furthermore the package includes some feature:
 # Tested Platforms
 This firmware has been tested on STM32 NUCLEO-F401RE
 # Example Application
-NFC05A1 program gives the possibility to the user to read the URI information written by the developing board on the expansion board. The LEDs will blink for few seconds to indicate that the initialization of the board is happening. As soon as It finishes and the device is ready to communicate with external NFC devices, LED6 will blink waiting for a NFC device to be close to it in order to read his URI value.
+NFC05A1 program gives the user the possibility
+ to read the URI information written on the expansion board. The LEDs will blink for few seconds 
+ to indicate that the board is initializing. 
+ As soon as it finishes, the device is ready to communicate with
+ external NFC devices. LED6 will blink until an NFC device is close to it and ready to read the URI value.
